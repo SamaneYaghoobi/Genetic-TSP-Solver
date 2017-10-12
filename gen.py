@@ -1,8 +1,8 @@
 import math
-import random
+import random from random
 
 
-class City:         # Models a city
+class City:                                      # Models a city
    def __init__(self, x=None, y=None):           # constructs a city
       self.x = None
       self.y = None
@@ -274,9 +274,9 @@ if __name__ == '__main__':          # Create a tour and evolve a solution
    
    # Print final results
 
-   print "\n------------------------------------------------------------"
+   print "\n\n////////////////////////////////////////////////////////////"
    print "                     Results                                "
-   print "------------------------------------------------------------\n"
+   print "/////////////////////////////////////////////////////////////\n\n"
    print "Final distance: " + str(pop.getFittest().getDistance())
-   print "Solution:"
+   print "Solution: "
    print pop.getFittest()
